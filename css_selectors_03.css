@@ -1,0 +1,23 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+p {
+    margin: 20px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+p::first-letter {
+    font-family: fantasy;
+    font-size: xx-large;
+    line-height: .5;
+}
+
+p::first-line {
+    color: cadetblue;
+}
