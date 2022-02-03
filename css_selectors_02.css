@@ -1,0 +1,31 @@
+body {
+    font-size: x-large;
+}
+
+ul:first-child {
+    background: lightgoldenrodyellow;
+}
+
+article:last-child {
+    color: lightcoral;
+}
+
+li:nth-child(even) {
+    color: teal;
+} 
+
+li:nth-child(odd) {
+    color: rosybrown;
+}
+
+li:nth-child(5) {
+    color: gold;
+}
+
+article:only-child {
+    color: cornflowerblue;
+}
+
+li:nth-child(3n+3) {
+    color: peru;
+}
