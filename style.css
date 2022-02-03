@@ -1,0 +1,47 @@
+h1 {
+    text-shadow: -5px 5px 10px yellowgreen;
+}
+
+p {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#google-fonts {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.font-weight300 {
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}
+
+.font-weight400 {
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+}
+
+.font-weight700 {
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+}
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    color: firebrick;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-decoration p {
+    text-decoration: line-through;
+}
+
+.text-indent p {
+    text-indent: 1rem;
+}
