@@ -1,0 +1,27 @@
+body {
+    font-size: large;
+}
+
+h1 {
+    color: maroon;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+a:active {
+    color: sienna;
+}
+
+p {
+    font-family: sans-serif;
+}
