@@ -1,0 +1,26 @@
+* {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 0.2rem solid darkkhaki;
+    border-radius: 3rem;
+    display: inline-block;
+}
+
+a {
+    padding: 0.6rem;
+    border: 0.2rem solid lightcoral;
+    border-radius: 3rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
