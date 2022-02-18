@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: tomato;
+    font: 32px sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+main {
+    height: 625px;
+    border: 3px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#order20 {
+    flex-grow: 2;
+}
