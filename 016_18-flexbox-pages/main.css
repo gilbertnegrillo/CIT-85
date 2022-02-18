@@ -9,7 +9,8 @@ main {
     height: 625px;
     border: 2px solid red;
     display: flex;
-    flex-flow: row nowrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -18,7 +19,8 @@ main {
     height: 625px;
     border: 2px solid red;
     display: flex;
-    flex-flow: column nowrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
