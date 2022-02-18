@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 625px;
+    border: 3px dashed red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 150px;
+    border: 1px solid black;
+    font: 900 32px sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#order1 {
+    flex-basis: 100%;
+    background-color: tomato;
+}
+
+#order2 {
+    flex-basis: 60%;
+    background-color: powderblue;
+}
+
+#order3 {
+    flex-basis: 40%;
+    background-color: palegreen;
+}
+
+#order4 {
+    background-color: yellow;
+}
+
+#order5 {
+    background-color: mediumpurple;
+}
