@@ -1,0 +1,99 @@
+html, body, header, main, ul {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Merriweather', serif;
+    color: mediumslateblue;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("music.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#atf > div {
+    height: 70vh;
+}
+
+.center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: lightcyan;
+    color: black;
+    border: 1px solid darkgreen;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px lightcoral;
+}
+
+footer {
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #999;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+main {
+    border: 2px solid darkblue;
+}
+
+li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    padding: 1em;
+}

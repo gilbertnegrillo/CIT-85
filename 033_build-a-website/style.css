@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    background-color: darkslateblue;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: darkorange;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+a[href="#top"] {
+    background-color: darkblue;
+}
+
+a:hover {
+    background-color: royalblue;
+}
+
+li:last-child {
+    border-bottom: none;
+}
