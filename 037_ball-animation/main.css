@@ -1,7 +1,5 @@
 body {
     height: 100vh;
-    display: flex;
-    align-items: center;
 }
 
 div {
@@ -9,21 +7,35 @@ div {
     height: 200px;
     position: relative;
     left: 0;
+    top: 0;
     border: 10px solid peachpuff;
     background-color: bisque;
     border-radius: 100%;
     animation-name: ball;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
     animation-timing-function: linear;
     animation-duration: 2s;
 }
 
 @keyframes ball {
     0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 80%;
+    }
+    50% {
+        top: 66%;
+        left: 80%;
+    }
+    75% {
+        top: 66%;
         left: 0;
     }
     100% {
-        left: 80%;
+        top: 0;
+        left: 0;
     }
 }
