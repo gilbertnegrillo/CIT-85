@@ -1,0 +1,19 @@
+#atf {
+    background-image: url(../img/yousef-alfuhigi-bMIlyKZHKMY-unsplash-1200-min.jpg);
+}
+
+#atf > div {
+    height: 18vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: .4rem;
+}
+
+footer {
+    height: 18vh;
+}

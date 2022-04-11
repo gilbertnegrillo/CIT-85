@@ -1,0 +1,170 @@
+html {
+    font-family: 'Merriweather', serif;
+    color: lightsalmon;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/yousef-alfuhigi-bMIlyKZHKMY-unsplash-1200-min.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#atf > div {
+    height: 90vh;
+}
+
+.center-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: .8rem;
+    line-height: 1.2;
+}
+
+li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    padding: 1em;
+}
+
+div > img {
+    border: 2px ridge gold;
+    margin: 20px;
+}
+
+#philippines {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#hundred {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#baguio {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#universal {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#rides {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#attraction {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#san-francisco {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#bridge {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#hike {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#tunnel {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#falls {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+#pines {
+    border: 2px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+footer {
+    height: 70px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #999;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
